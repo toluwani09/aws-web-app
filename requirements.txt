@@ -1,0 +1,16 @@
+flask
+boto3
+pymysql
+RDS_HOST=your-rds-endpoint.amazonaws.com
+DB_USER=your-db-username
+DB_PASS=your-db-password
+S3_BUCKET=your-s3-bucket-name
+git init
+git remote add origin https://github.com/your-username/aws-web-app.git
+git branch -M main
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+## Screenshots
+### Home Page
+![Home Page](path/to/homepage-screenshot.png)
